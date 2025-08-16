@@ -43,9 +43,9 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		629E03C9C76E9D9EFBE26E13 /* Pods_Networkingo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Networkingo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		85F677A3ADE1C4474345A69B /* Pods_Networkingo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Networkingo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8FF3A7947CB4607A9AAA6700 /* Networkingo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Networkingo.podspec; path = ../Networkingo.podspec; sourceTree = "<group>"; };
-		AC5C05C8E7C7E12FBA532954 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		B08957C4FF78A92F59908F03 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8FF3A7947CB4607A9AAA6700 /* Networkingo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Networkingo.podspec; path = ../Networkingo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC5C05C8E7C7E12FBA532954 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B08957C4FF78A92F59908F03 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DE99E52FC97ECA9ED6924784 /* Pods-Networkingo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Networkingo_Example.debug.xcconfig"; path = "Target Support Files/Pods-Networkingo_Example/Pods-Networkingo_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				39AC1DBE2ED9BBDEDBFD3C00 /* Pods-Networkingo_Tests.debug.xcconfig */,
 				4539BCE6C40E2CAA7D26D581 /* Pods-Networkingo_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

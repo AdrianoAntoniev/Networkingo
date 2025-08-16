@@ -1,0 +1,16 @@
+PODS:
+  - Networkingo (0.1.0)
+
+DEPENDENCIES:
+  - Networkingo (from `../`)
+
+EXTERNAL SOURCES:
+  Networkingo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Networkingo: 2772d10ad4e32ad7972f59ce861063f6ddc10ebb
+
+PODFILE CHECKSUM: a61732bdbdfe6abe33aea4d75215d5539f7fe527
+
+COCOAPODS: 1.16.2
